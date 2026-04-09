@@ -1,0 +1,18 @@
+# VS Code settings
+.vscode/
+
+# env files
+.env
+
+# dependencies
+node_modules/
+
+# logs
+*.log
+
+# build files
+dist/
+build/
+
+# OS files
+.DS_Store
