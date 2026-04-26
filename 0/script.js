@@ -1,15 +1,5 @@
-const arr = [1, 2, 3, 4, 5];
-console.log(arr.pop());
-console.log(arr)
-arr.push(10);
-console.log(arr)
-// find() method
-const ans = arr.find((val)=>{
-    return val == 4;
-})
-console.log(ans)
+const arr = [10, 2, 0, 7, 5];
+arr.sort((a,b)=> a - b); // ascending order
+arr.sort((a,b)=> b - a); // descending order
 
-const a = arr.map((val)=> {
-    return val == 10;
-})
-console.log(a)
+console.log(arr)
