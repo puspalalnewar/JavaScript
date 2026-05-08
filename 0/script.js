@@ -1,3 +1,7 @@
-import add from "./library.js";
+// console.log(a)
+// var a = 20; // Undefined 
 
-add(50, 50);
+// JavaScript internally treats it like this:
+var a;          // declaration is hoisted
+console.log(a); // currently undefined
+a = 20;
