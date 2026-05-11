@@ -1,7 +1,15 @@
-// console.log(a)
-// var a = 20; // Undefined 
+const arr = [1, 2, 3, 4, 5];
+console.log(arr.pop());
+console.log(arr)
+arr.push(10);
+console.log(arr)
+// find() method
+const ans = arr.find((val)=>{
+    return val == 4;
+})
+console.log(ans)
 
-// JavaScript internally treats it like this:
-var a;          // declaration is hoisted
-console.log(a); // currently undefined
-a = 20;
+const a = arr.map((val)=> {
+    return val == 10;
+})
+console.log(a)
